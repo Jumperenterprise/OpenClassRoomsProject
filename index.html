@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClassrooms-Project</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/3d8f845060.js" crossorigin="anonymous"></script>
+    <script>
+        const loader = () => {          
+            let spinner = document.getElementById('loader')  
+            if(window.onload === false) {
+                spinner.style.display = 'block'
+            }
+            } 
+        loader()
+    </script>
+</head>
+
+<body>
+
+
+    <div class="loader"></div>
+
+
+    <div class="main">
+        <!--Header-->
+        <div class="header">
+
+            <div class="topnav">
+                <a href="#home" class="active">Logo</a>
+                <div id="myLinks">
+                    <li class="ul__li"><a href="#">Home</a></li>
+                    <li class="ul__li"><a href="#">About us</a></li>
+                    <li class="ul__li"><a href="#">Process</a></li>
+                    <li class="ul__li"><a href="#">News</a></li>
+                    <li class="ul__li"><a href="#">Gallery</a></li>
+                    <li class="ul__li"><a href="#">Contact us</a></li>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <!--Nav-->
+            <div class="nav">
+                <a href="#">
+                    <img src="" alt="">
+                </a>
+                <ul class="nav__ul">
+                    <li class="ul__li"><a href="#">Home</a></li>
+                    <li class="ul__li"><a href="#">About us</a></li>
+                    <li class="ul__li"><a href="#">Process</a></li>
+                    <li class="ul__li"><a href="#">News</a></li>
+                    <li class="ul__li"><a href="#">Gallery</a></li>
+                    <li class="ul__li"><a href="#">Contact us</a></li>
+                </ul>
+                <Button class="primary__button">
+                    Download <i class="fa-solid fa-download"></i>
+                </Button>
+            </div>
+            <!--End-Nav-->
+            <div class="header__section">
+                <h3 class="sub-title m-1">
+                    40% Special Off
+                </h3>
+                <h1 class="title m-1">Digital Camera</h1>
+                <p class="m-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tempora rem dolores quod
+                    alias
+                    quis officiis voluptatem aspernatur.</p>
+                <Button class="primary__button m-1">
+                    Download Now <i class="fa-solid fa-download"></i>
+                </Button>
+            </div>
+
+        </div>
+        <!--End-Header-->
+
+        <!--Our-Store-Section-->
+        <div class="out-store-section">
+            <div class="text-content m-2">
+                <p class="text-content__sub-title">Our Store</p>
+                <h2 class="text-content__title">What We Are Offering?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nobis magni maxime!</p>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/camera.png" alt="Image of the card" class="card__img--details">
+                    <p class="card-title">Cameras</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, provident?</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/lens.png" alt="Image of the card" class="card__img--details">
+                    <p class="card-title">Lenses</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, provident?</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/tripod.png" alt="Image of the card" class="card__img--details">
+                    <p class="card-title">Accessories</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, provident?</p>
+                </div>
+            </div>
+        </div>
+        <!--End-Our-Store-Section-->
+    </div>
+
+    <!--Product-Features-->
+    <div class="product-feactures">
+        <div class="col-12">
+            <div class="text-content m-2">
+                <p class="text-content__sub-title">Features</p>
+                <h2 class="text-content__title">Our Important Features</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nobis magni maxime!</p>
+            </div>
+        </div>
+        <div class="feature-description">
+            <p class="text-content__title">We will Provid you the Best Services</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi maiores eligendi sapiente numquam quia nam
+                odit, aliquid, architecto exercitationem vel animi in neque! Aliquid, suscipit.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi maiores eligendi sapiente numquam quia nam
+                odit, aliquid, architecto exercitationem vel animi in neque! Aliquid, suscipit.</p>
+        </div>
+        <div class="cards-features-container">
+            <div class="card-feature">
+                <img src="./assets/item-1.png" alt="Image of the card" class="card__img--details">
+                <p class="card-title">Products</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-feature">
+                <img src="./assets/item-2.png" alt="Image of the card" class="card__img--details">
+                <p class="card-title">Products</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-feature">
+                <img src="./assets/item-3.png" alt="Image of the card" class="card__img--details">
+                <p class="card-title">Products</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-feature">
+                <img src="./assets/item-4.png" alt="Image of the card" class="card__img--details">
+                <p class="card-title">Products</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <!--End-Product-Features-->
+
+
+    <!--Product-Section-->
+
+    <div class="product-section">
+        <div class="col-12">
+            <div class="text-content m-2">
+                <p class="text-content__sub-title">Products</p>
+                <h2 class="text-content__title">Our Popular Products</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nobis magni maxime!</p>
+            </div>
+        </div>
+        <div class="col-12 card-container-section">
+            <div class="card-product">
+                <img class="card-img" src="./assets/Img-Card.jpg" alt="Image of the product">
+                <p class="card-title">Digital Cameras</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Libero nobis magni maxime!</p>
+            </div>
+            <div class="card-product">
+                <img class="card-img" src="./assets/camera-canon.jfif" alt="Image of the product">
+                <p class="card-title">Digital Cameras</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Libero nobis magni maxime!</p>
+            </div>
+            <div class="card-product">
+                <img class="card-img" src="./assets/camera-lumix.jpg" alt="Image of the product">
+                <p class="card-title">Digital Cameras</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Libero nobis magni maxime!</p>
+            </div>
+        </div>
+    </div>
+
+    <!--End-Product-Section-->
+
+    <!--Product-E-Commerce-->
+
+    <div class="product-section">
+        <div class="col-12">
+            <div class="text-content m-2">
+                <p class="text-content__sub-title">Products</p>
+                <h2 class="text-content__title">Our Recent Products</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nobis magni maxime!</p>
+            </div>
+        </div>
+        <div class="col-12 card-container-section">
+            <div class="card-product">
+                <img class="card-img" src="./assets/product-img.jpg" alt="Image of the product">
+                <p class="card-title">Lente Cannon</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Libero nobis magni maxime!</p>
+                <Button class="primary__button mx-1">
+                    Buy Now <i class="fa-solid fa-cart-shopping"></i>
+                </Button>
+            </div>
+
+            <div class="card-product">
+                <img class="card-img" src="./assets/tripie.png" alt="Image of the product">
+                <p class="card-title">Tripod Cannon</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Libero nobis magni maxime!</p>
+                <Button class="primary__button mx-1">
+                    Buy Now <i class="fa-solid fa-cart-shopping"></i>
+                </Button>
+            </div>
+
+            <div class="card-product">
+                <img class="card-img" src="./assets/flash.jpg" alt="Image of the product">
+                <p class="card-title">Flash Cannon</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Libero nobis magni maxime!</p>
+                <Button class="primary__button mx-1">
+                    Buy Now <i class="fa-solid fa-cart-shopping"></i>
+                </Button>
+            </div>
+        </div>
+    </div>
+
+    <!--End-Product-E-Commerce-->
+
+    <!--Contact-->
+    <div class="col-12">
+        <h1 class="title m-1 text-center">Enterprise Services</h1>
+        <div class="wrapper animated bounceInLeft">
+          <div class="info-empresa">
+            <h3 class="text-center">Enterprise Services</h3>
+            <div class="servicios">
+              <p class="text-center"><i class="fa fa-map-marker"></i> Rue QXXXXXXX, 44. 88880. Paris</p>
+              <p class="text-center"><i class="fa fa-mobile"></i> +33 555 555 000</p>
+              <p class="text-center"><i class="fa fa-envelope"></i> info@enterprise.com</p>
+            </div>
+          </div>
+          <div class="contacto">
+            <h3>Send Email</h3>
+            <form class="formulario">
+              <p>
+                <label>Name</label>
+                <input class="input" type="text" name="nombre" required>
+              </p>
+              <p>
+                <label>Enterprise</label>
+                <input class="input" type="text" name="empresa">
+              </p>
+              <p>
+                <label>E-mail</label>
+                <input class="input" type="email" name="email" required>
+              </p>
+              <p>
+                <label>Phone</label>
+                <input class="input" type="text" name="teléfono" required>
+              </p>
+              <p class="full">
+                <label>Menssage</label>
+                <textarea class="input" name="mensaje" required></textarea>
+              </p>
+              <p class="full">
+                <button class="primary__button">Send</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    <!--Contact-End-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="col-12 p-1">
+            <h3 class="mx-1 title">About Us</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dicta magni facere?
+            </p>
+        </div>
+        <div class="col-12 p-1">
+            <h3 class="mx-1 title">Contact</h3>
+            <p><i class="fa-solid fa-message"></i> +33 33 33 33 33 33</p>
+            <p><i class="fa-solid fa-envelope"></i> test@test.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> France</p>
+        </div>
+        <div class="col-12 p-1">
+            <h3 class="mx-1 title">Social</h3>
+            <div class="social-icon-container">
+                <i class="fa-solid fa-thumbs-up m-1"></i>
+                <i class="fa-solid fa-square-share-nodes m-1"></i>
+                <i class="fa-solid fa-retweet m-1"></i>
+            </div>
+        </div>        
+    </footer>
+    <!--End-Footer-->
+
+    <!--Toggle-Function-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
